@@ -1,0 +1,15 @@
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.csproj.AssemblyReference.cache
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.AssemblyInfoInputs.cache
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.AssemblyInfo.cs
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.csproj.CoreCompileInputs.cache
+F:\University\Works\PPPI\bin\Debug\net7.0\PPPI.exe
+F:\University\Works\PPPI\bin\Debug\net7.0\PPPI.deps.json
+F:\University\Works\PPPI\bin\Debug\net7.0\PPPI.runtimeconfig.json
+F:\University\Works\PPPI\bin\Debug\net7.0\PPPI.dll
+F:\University\Works\PPPI\bin\Debug\net7.0\PPPI.pdb
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.dll
+F:\University\Works\PPPI\obj\Debug\net7.0\refint\PPPI.dll
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.pdb
+F:\University\Works\PPPI\obj\Debug\net7.0\PPPI.genruntimeconfig.cache
+F:\University\Works\PPPI\obj\Debug\net7.0\ref\PPPI.dll
