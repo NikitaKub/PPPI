@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\University\\Works\\PPPI\\PPPI.csproj",
+      "projectUniqueName": "F:\\University\\Works\\PPPI\\Work_5\\PPPI.csproj",
       "projectName": "PPPI",
-      "projectPath": "F:\\University\\Works\\PPPI\\PPPI.csproj",
+      "projectPath": "F:\\University\\Works\\PPPI\\Work_5\\PPPI.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\University\\Works\\PPPI\\obj\\",
+      "outputPath": "F:\\University\\Works\\PPPI\\Work_5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }
