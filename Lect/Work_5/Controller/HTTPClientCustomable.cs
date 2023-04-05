@@ -31,33 +31,37 @@ namespace PPPI.Controller
 
         public async Task GetAsync()
         {
-            await SetUrl("https://api.geneea.com/account");
-            if (Message.StatusCode == HttpStatusCode.OK)
+            try
             {
+                await SetUrl("https://api.geneea.com/account");
                 Account account = await Message.Content.ReadFromJsonAsync<Account>();
                 Console.WriteLine("Type: " + account.Type + " | Remaining Quotas: {Hits: " + account.RemainingQuotas.Hits + " | Characters: " + account.RemainingQuotas.Characters + "}");
                 addToList(account);
+
             }
-            else
+            catch(Exception ex) when(Message.StatusCode != HttpStatusCode.OK)
             {
                 await Message.Content.ReadFromJsonAsync<HTTPClientCustomable>();
                 Console.WriteLine(Error);
+                if (ex.StackTrace != "") Console.WriteLine(ex.StackTrace);
             }
         }
 
         public async Task PostAsync()
         {
-            await SetUrl("https://api.geneea.com/account?user_key=6d972176d8a0638756be17d6bc9ceb57");
-            if (Message.StatusCode == HttpStatusCode.OK)
+            try
             {
+                await SetUrl("https://api.geneea.com/account?user_key=6d972176d8a0638756be17d6bc9ceb57");
                 Account account = await Message.Content.ReadFromJsonAsync<Account>();
                 Console.WriteLine("Type: " + account.Type + " | Remaining Quotas: {Hits: " + account.RemainingQuotas.Hits + " | Characters: " + account.RemainingQuotas.Characters + "}");
                 addToList(account);
+
             }
-            else
+            catch (Exception ex) when (Message.StatusCode != HttpStatusCode.OK)
             {
                 await Message.Content.ReadFromJsonAsync<HTTPClientCustomable>();
                 Console.WriteLine(Error);
+                if (ex.StackTrace != "") Console.WriteLine(ex.StackTrace);
             }
         }
 
