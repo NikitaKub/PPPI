@@ -1,3 +1,6 @@
 MVC API student project
-Swagger UI
-Bearer tokens
+Features:
+-Auth;
+-Swagger UI;
+-Bearer tokens;
+-Services.
