@@ -1,4 +1,5 @@
-MVC API student project
+#MVC API student project
+Work 9: stable version
 Features:
 -Auth;
 -Swagger UI;
